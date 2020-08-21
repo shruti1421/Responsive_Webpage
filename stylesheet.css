@@ -1,0 +1,145 @@
+body{
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-image: url(https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/rDtN98Qoishumwih/dark-blurred-background-design_XkNAtZ_thumb.jpg);
+  background-size: cover;
+}
+#my-canvas{
+  line-height: 65px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image: url(https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/rDtN98Qoishumwih/dark-blurred-background-design_XkNAtZ_thumb.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper p{
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn-wrapper p{
+  margin: 10px 0;
+}
+.signup {
+  background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.fa {
+  margin-right: 5px;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(244,67,54,0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo{
+  width: 124px;
+  height: 65px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  color: black:
+}
+.header-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  text-decoration-style: solid;
+  font-weight: bolder;
+  font-size: 30px;
+  display: block;
+}
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align:
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.heading h2{
+  font-weight: normal;
+}
+
+.lesson-icon p{
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+.lesson-icon img {
+  height: 200px;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer p{
+  color: #b3aeb5;
+  font-size: 12px;
+}
+footer {
+  padding-top: 30px;
+}
+.menu-icon {
+  display: none;
+}

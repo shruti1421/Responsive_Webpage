@@ -1,0 +1,149 @@
+@media (min-width:1001px ){
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+}
+@media (max-width: 1000px) {
+  body{
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: black;
+    background-size: cover;
+    background-image: none;
+  }
+  .lesson {
+    float: left;
+    width: 50%;
+    box-sizing: border-border-box;
+  }
+  .clear {
+    clear: left;
+  }
+  .top-wrapper h1{
+    font-size: 24px;
+  }
+  .top-wrapper{
+    background-image: none;
+    background-color: black;
+    background-size: cover;
+  }
+  .top-wrapper p{
+    padding: 20px;
+  }
+  .lesson-wrapper{
+    background-color: black;
+    background-size: cover;
+    width: 100%
+  }
+
+    .top-wrapper{
+      padding: 18% 0 10% 0;
+      background-color: black;
+      background-size: cover;
+      color: white;
+    }
+    .message-wrapper{
+      background-color: black;
+      background-size: cover;
+      color: white;
+    }
+    .lessons img{
+      align-items: center;
+      padding-left: 30%;
+      padding-right: 30%;
+    }
+    .lessons p{
+      align-items: center;
+      padding-left: 43%;
+      padding-right: 43%;
+      color: white;
+      text-decoration-style: wavy;
+    }
+}
+
+@media (max-width: 670px) {
+  body{
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: black;
+    background-size: cover;
+    background-image: none;
+  }
+  .lesson {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .lessons img{
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .lessons p{
+    align-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    color: white;
+    text-decoration-style: wavy;
+  }
+.top-wrapper{
+  background-image: none;
+  background-color: black;
+  background-size: cover;
+}
+.top-wrapper p{
+  padding: 20px;
+}
+.lesson-wrapper{
+  background-color: black;
+  background-size: cover;
+  width: 100%
+}
+
+  .top-wrapper{
+    padding: 18% 0 10% 0;
+    background-color: black;
+    background-size: cover;
+    color: white;
+  }
+  .message-wrapper{
+    background-color: black;
+    background-size: cover;
+    color: white;
+  }
+  .clear {
+    clear: left;
+  }
+  footer {
+    text-align: center;
+  }
+  .btn {
+    width: 90%;
+    box-sizing: border-box;
+  }
+  .btn-wrapper {
+    margin: 0px 0px;
+  }
+  .facebook {
+    margin-bottom: 10px;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    height: 65px;
+    float: right;
+    line-height: 65px;
+    padding-right: 20px;
+    color: black;
+  }
+  .menu-icon:hover{
+    color: grey;
+  }
+}
